@@ -1,4 +1,18 @@
 {
     "products": [
+        {
+            "manufacturer": "Foscam",
+            "skus": [
+                "FI9821P"
+            ],
+            "issues": [
+                {
+                    "categories": ["phones-home-always"],
+                    "reports": [
+                        "http://foscam.us/forum/foscam-dialing-out-to-suspect-hosts-t17699.html"
+                    ]
+                }
+            ]
+        }
     ]
 }

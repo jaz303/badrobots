@@ -1,21 +1,31 @@
 Product:
 
 {
-	"product_name": "",
-	"product_url": "",
-	"issues": [
-		// array of "issue" items, below
-	]
+    "range": "FooCam",
+    "skus": [
+        "FC123",
+        "FC123-A"
+    ],
+    "issues": [
+        // array of "issue" items, below
+    ]
 }
 
-Issue:
+Issue (all fields optional, except there must be at least one category)
 
 {
-	"categories": [],
-	"title": "...",
-	"description": "...",
+    "categories": [],
+    "description": "...",
+    "reports": [
+        // URLs to reports abouts this issue
+    ]
 }
 
 Categories:
 
-  - "vulnerability"
+ - forced-firmware-default      : by default, downloads new firmware without user intervention
+ - forced-firmware-always       : as above, but can't be disabled
+ - security-vulnerability       : issue describes a security vulnerability
+ - other                        : anything else...
+ - phones-home-default          : device phones home
+ - phones-home-always           : as above, but can't be disabled
