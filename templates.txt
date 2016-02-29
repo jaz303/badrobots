@@ -1,0 +1,21 @@
+Product:
+
+{
+	"product_name": "",
+	"product_url": "",
+	"issues": [
+		// array of "issue" items, below
+	]
+}
+
+Issue:
+
+{
+	"categories": [],
+	"title": "...",
+	"description": "...",
+}
+
+Categories:
+
+  - "vulnerability"
